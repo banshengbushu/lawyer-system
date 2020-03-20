@@ -1,1 +1,5 @@
-/// <reference types="react-scripts" />
+import React, {Component} from 'react';
+
+declare class Login extends Component<Login, any> {
+
+}
