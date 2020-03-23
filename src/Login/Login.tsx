@@ -1,20 +1,24 @@
 import React, {useState} from 'react';
 import axios from 'axios';
+import { useHistory } from "react-router-dom";
 import './Login.css';
 
 const Login: React.FunctionComponent = () => {
     const [mobile, setMobile] = useState('');
     const [password, setPassword] = useState('');
+    const history = useHistory();
 
     const onSubmit = () => {
         axios.post('http://localhost:8080/login', {
             mobile,
             password,
         }).then(response => {
+            if(response.status === 200){
+              history.push("/homepage");
+            }
 
         }).catch(error => {
-
-
+          throw error;
         });
     };
 
