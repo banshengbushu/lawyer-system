@@ -8,22 +8,22 @@ import AboutUs from "./AboutUs/AboutUs";
 
 function App() {
   return (
-      <div className="App">
-        <Switch>
-          <Route path="/homepage">
-            <Homepage/>
-          </Route>
-          <Route path="/review">
-            <Review/>
-          </Route>
-          <Route path="/about-us">
-            <AboutUs/>
-          </Route>
-          <Route path="/">
-            <Login/>
-          </Route>
-        </Switch>
-      </div>
+    <div className="App">
+      <Switch>
+        <Route path="/homepage">
+          <Homepage />
+        </Route>
+        <Route path="/review">
+          <Review />
+        </Route>
+        <Route path="/about-us">
+          <AboutUs />
+        </Route>
+        <Route path="/">
+          <Login />
+        </Route>
+      </Switch>
+    </div>
   );
 }
 
