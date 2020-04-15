@@ -32,10 +32,15 @@
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write"
     ],
-    "src/**.{ts,tsx,css}": ["prettier --write"]
+    "src/**.{ts,tsx,css}": [
+      "prettier --write"
+    ]
   },
   "eslintConfig": {
-    "extends": ["react-app", "plugin:prettier/recommended"]
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
   },
   "browserslist": {
     "production": [
@@ -52,6 +57,7 @@
   "devDependencies": {
     "husky": "^4.2.3",
     "lint-staged": "^10.0.9",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "sass": "^1.26.3"
   }
 }

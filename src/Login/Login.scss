@@ -1,24 +1,26 @@
+@import "../CSS/base.scss";
+
 .login-container {
   display: flex;
   justify-content: center;
   max-width: 1200px;
   margin: auto;
   border-radius: 8px;
-  box-shadow: 5px 2px 6px #f4f8f7;
+  box-shadow: 5px 2px 6px $color-grey;
 }
 
 .login-container__sign-in {
   display: flex;
   flex-direction: column;
   flex-basis: 60%;
-  background-color: #fff;
+  background-color: $color-white;
   padding: 180px 120px 120px;
   font-weight: bold;
 }
 
 .login-sign-in__button {
-  background-color: #41b19b;
-  color: #fff;
+  background-color: $color-green;
+  color: $color-white;
   padding: 15px 30px;
   border: none;
   border-radius: 22px;
@@ -39,7 +41,7 @@
 
 .login-sign-up__button {
   padding: 15px 100px;
-  color: #fff;
+  color: $color-white;
   font-weight: bold;
   background-color: transparent;
   border-radius: 22px;
@@ -56,7 +58,7 @@ p {
 }
 
 .login--input {
-  background-color: #f4f8f7;
+  background-color: $color-grey;
   padding: 20px;
   border-radius: 5px;
   border: none;
@@ -71,7 +73,5 @@ p {
 }
 
 .login-container__sign-up {
-  background-color: #41b19b;
+  background-color: $color-green;
 }
-
-/*# sourceMappingURL=Login.css.map */
