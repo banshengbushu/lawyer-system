@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://localhost:8080",
+    "integrationFolder": "src/cypress/integration",
+    "testFiles": "**/**/*.cypress.spec.js",
+    "video": false,
+    "viewportHeight": 800,
+    "viewportWidth": 1600
+}
