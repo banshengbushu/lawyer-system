@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.scss";
 import Login from "./Login/Login";
@@ -6,7 +6,7 @@ import Homepage from "./Homepage/Homepage";
 import Review from "./Review/Review";
 import AboutUs from "./AboutUs/AboutUs";
 
-function App() {
+function App(): ReactElement {
   return (
     <div className="App">
       <Switch>

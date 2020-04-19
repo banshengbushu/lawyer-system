@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, FC } from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom";
 import "./Login.scss";
 
-const Login: React.FunctionComponent = () => {
+const Login: FC = () => {
   const [mobile, setMobile] = useState("");
   const [password, setPassword] = useState("");
   const history = useHistory();

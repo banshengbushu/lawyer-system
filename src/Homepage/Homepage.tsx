@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from "react";
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 
-const Homepage: FunctionComponent = () => {
+const Homepage: FC = () => {
   return (
     <ul>
       <li>
